@@ -1,0 +1,41 @@
+:root{
+    --height--: 80vh;
+    --width--: 40vw;
+}
+
+body{
+    height: var(--height--);
+    width: var(--width--);
+}
+
+form{
+    margin-block:calc(var(--height--)/9);
+    margin-inline: calc(var(--width--)/1.1);
+    padding: 8vw;
+    background: #373737;
+}
+
+.wallpaper{
+    vertical-align: middle;
+    align-self: center;
+}
+.h-auto{
+    height: auto;
+}
+
+.w-auto{
+    width: auto;
+}
+
+.g-6{
+margin-inline: 1vw;
+}
+
+[name="txtCadastro"]{
+    width: 14vw;
+    color: antiquewhite;
+}
+
+.input-group{
+    padding-inline: 1vw;
+}
